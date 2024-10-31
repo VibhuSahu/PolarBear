@@ -1,31 +1,46 @@
-// Initialize EmailJS with your user ID
-// const serviceID = "service_58hm9a5";
-// const templateID = "template_xqhmvcc";
-// const userID = "BzngGgGJl4wDRZqPf";
-
-
-(function() {
-    emailjs.init("BzngGgGJl4wDRZqPf"); // Replace with your EmailJS user ID
-})();
-
 document.getElementById('submitForm').addEventListener('click', function() {
-        // Get form element
-        const form = document.getElementById('contactForm');
+    const name = document.getElementById('first-name').value;
+    const phone = document.getElementById('phone').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
 
-        // Collect form data
-        const formData = {
-            name: form.querySelector('input[name="name"]').value,
-            phone: form.querySelector('input[name="phone"]').value,
-            email: form.querySelector('input[name="email"]').value,
-        };
+    emailjs.send("service_52b5dms", "template_3suchrf", {
+        user_name: name,
+        user_phone: phone,
+        user_email: email,
+        user_message: message
+    }).then(function(response) {
+        alert('Message sent successfully!');
+        document.getElementById('contactForm').reset();
+    }, function(error) {
+        alert('Failed to send message, please try again.');
+    });
+});
 
-        // Send email using EmailJS
-        emailjs.send("service_58hm9a5", "template_xqhmvcc", formData)
-        .then(function(response) {
-            alert('Form submitted successfully!');
-            form.reset();
+
+document.getElementById('sendConnectEmail').addEventListener('click', function() {
+    const email = document.getElementById('connectEmail').value;
+
+    if (email) {
+        emailjs.send("service_52b5dms", "template_l1ylycv", {
+            user_email: email
+        }).then(function(response) {
+            alert('Email sent successfully!');
+            document.getElementById('connectEmail').value = ""; // Clear input field
         }, function(error) {
-            alert('There was a problem submitting the form: ' + JSON.stringify(error));
+            alert('Failed to send email. Please try again.');
         });
+    } else {
+        alert("Please enter a valid email address.");
+    }
+});
 
+
+document.getElementById('sendConnectEmail').addEventListener('click', function() {
+    const emailInput = document.getElementById('connectEmail').value;
+    if (emailInput) {
+        alert("Newsletter coming soon!");
+    } else {
+        alert("Please enter your email address.");
+    }
 });
