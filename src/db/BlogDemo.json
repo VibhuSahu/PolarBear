@@ -1,0 +1,127 @@
+[
+    {
+        "Heading": "Exploring the Wonders of Nature",
+        "Short Description": "A breathtaking journey through the world's most beautiful landscapes.",
+        "Picture URL": "https://example.com/images/nature1.jpg",
+        "Content": "Nature has always been a source of inspiration and awe. From the towering mountains to the serene oceans, every corner of our planet offers something unique. In this article, we delve into the beauty of natural wonders, their significance, and how we can protect them for future generations.",
+        "Comments": [
+            {
+                "User": "JohnDoe",
+                "Comment": "Amazing article! The pictures are stunning.",
+                "Date": "10 December 2024"
+            },
+            {
+                "User": "NatureLover123",
+                "Comment": "I’ve been to some of these places, and they are even more beautiful in person.",
+                "Date": "11 December 2024"
+            }
+        ],
+        "Tags": [
+            "Nature",
+            "Travel",
+            "Environment",
+            "Adventure"
+        ],
+        "Published Date": "08 December 2024"
+    },
+    {
+        "Heading": "The Future of Technology: AI and Beyond",
+        "Short Description": "Exploring the impact of AI on the future of work, healthcare, and daily life.",
+        "Picture URL": "https://example.com/images/ai_future.jpg",
+        "Content": "Artificial Intelligence is no longer a thing of the future—it is here, shaping industries and our everyday lives. From self-driving cars to personalized healthcare, AI has the potential to transform the world in ways we’ve never imagined. In this article, we explore the various facets of AI technology and its implications for the future.",
+        "Comments": [
+            {
+                "User": "TechGeek92",
+                "Comment": "AI is changing everything. Can't wait to see where this goes!",
+                "Date": "09 December 2024"
+            },
+            {
+                "User": "SarahTech",
+                "Comment": "Interesting read, but I worry about the ethical implications of AI in healthcare.",
+                "Date": "11 December 2024"
+            }
+        ],
+        "Tags": [
+            "AI",
+            "Technology",
+            "Future",
+            "Innovation"
+        ],
+        "Published Date": "07 December 2024"
+    },
+    {
+        "Heading": "The Best Coffee Shops Around the World",
+        "Short Description": "A curated list of the top coffee spots from New York to Tokyo.",
+        "Picture URL": "https://example.com/images/coffee_shop.jpg",
+        "Content": "Coffee is more than just a beverage—it's an experience. Around the world, there are countless coffee shops that offer not only delicious brews but also a unique ambiance. In this guide, we’ve handpicked the best coffee shops in major cities that are a must-visit for every coffee lover.",
+        "Comments": [
+            {
+                "User": "CoffeeFanatic",
+                "Comment": "Loved this list! I’ve been to a few, and they’re amazing.",
+                "Date": "06 December 2024"
+            },
+            {
+                "User": "GlobalNomad",
+                "Comment": "I’ve always wanted to visit Tokyo’s coffee scene. Adding this to my list!",
+                "Date": "08 December 2024"
+            }
+        ],
+        "Tags": [
+            "Coffee",
+            "Travel",
+            "Food",
+            "Culture"
+        ],
+        "Published Date": "05 December 2024"
+    },
+    {
+        "Heading": "Top 10 Fitness Trends to Try in 2025",
+        "Short Description": "Stay ahead of the curve with the hottest fitness trends for the new year.",
+        "Picture URL": "https://example.com/images/fitness_trends.jpg",
+        "Content": "As the new year approaches, it’s time to gear up for the latest fitness trends. From virtual workouts to outdoor activities that bring people together, 2025 promises to bring exciting changes to the fitness world. Read on to discover the top trends you should be incorporating into your routine.",
+        "Comments": [
+            {
+                "User": "FitGuru",
+                "Comment": "I’m already trying some of these, and they’re amazing!",
+                "Date": "10 December 2024"
+            },
+            {
+                "User": "WellnessQueen",
+                "Comment": "Can’t wait to try the outdoor group workouts. They sound like a lot of fun!",
+                "Date": "11 December 2024"
+            }
+        ],
+        "Tags": [
+            "Fitness",
+            "Health",
+            "Trends",
+            "Wellness"
+        ],
+        "Published Date": "04 December 2024"
+    },
+    {
+        "Heading": "How to Plan the Perfect Weekend Getaway",
+        "Short Description": "Quick tips and tricks for planning the ideal short vacation.",
+        "Picture URL": "https://example.com/images/weekend_getaway.jpg",
+        "Content": "A weekend getaway is the perfect way to recharge and explore new places without taking too much time off. Whether you’re looking for relaxation or adventure, planning is key. In this article, we break down the steps to planning a perfect weekend trip, including budget tips, destination recommendations, and packing essentials.",
+        "Comments": [
+            {
+                "User": "Wanderlust",
+                "Comment": "I’ve been needing some weekend trip ideas. This is super helpful!",
+                "Date": "02 December 2024"
+            },
+            {
+                "User": "ExplorerJane",
+                "Comment": "I love how you included both relaxing and adventurous destinations!",
+                "Date": "03 December 2024"
+            }
+        ],
+        "Tags": [
+            "Travel",
+            "Weekend",
+            "Adventure",
+            "Planning"
+        ],
+        "Published Date": "01 December 2024"
+    }
+]
